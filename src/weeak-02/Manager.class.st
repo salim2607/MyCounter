@@ -7,6 +7,7 @@ Class {
 
 { #category : 'as yet unclassified' }
 Manager >> work [ 
-  ^ 'Manager is managing the team...'. 
+        "Appel à la méthode work de la classe parente"
+        ^ super work, ' Manager is managing the team...'.
     
 ]

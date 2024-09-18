@@ -6,6 +6,7 @@ Class {
 }
 
 { #category : 'as yet unclassified' }
-Developer >> work [ 
-   ^ 'Developer is coding...'.
+Developer >> work [
+  "Appel à la méthode work de la classe parente"
+    ^ super work, ' Developer is coding...'.
 ]
